@@ -1,0 +1,16 @@
+{
+	"name": "airtable-backup-simple-submissions",
+	"version": "0.1.0",
+	"description": "Back up an Airtable Simple Submissions base",
+	"author": "Joe McMahon <joe.mcmahon@gmail.com>",
+	"bin": "./bin",
+	"scripts": {
+		"backup": "node ./bin/backup.js",
+		"restore": "node ./bin/restore.js"
+	},
+	"main": "lib/airtable-backup.js",
+	"dependencies": {
+		"airtable": "git@github.com:Airtable/airtable.js.git",
+		"process-env": "*"
+	}
+}
